@@ -1,0 +1,6 @@
+taipy==3.1.0
+tensorflow
+numpy
+pandas
+matplotlib
+google-generativeai
