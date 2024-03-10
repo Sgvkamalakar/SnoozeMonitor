@@ -48,4 +48,4 @@ https://github.com/Sgvkamalakar/SnoozeMonitor/assets/103712713/0528c91a-e843-477
 ## Acknowledgements
 - This project utilizes the Taipy framework for GUI development.
 - Data analysis and visualization powered by Pandas, Plotly, and other Python libraries.
-- Sleep disorder predictions are based on Neural Netwokrs trained using TensorFlow.
+- Sleep disorder predictions are based on Neural Networks trained using TensorFlow.
