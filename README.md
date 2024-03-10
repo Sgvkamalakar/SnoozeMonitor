@@ -1,6 +1,6 @@
 # SnoozeMonitor
 
-[![Open in Taipy](https://img.shields.io/badge/Open%20in-Taipy-magenta?style=for-the-badge&logo=taipy)](https://snooozemonitor.taipy.cloud/)
+[![Open in Taipy](https://img.shields.io/badge/Open%20in-Taipy-magenta?style=for-the-badge&logo=taipy)](https://snooozemonitor.taipy.cloud/)   [![Open in Colab](https://img.shields.io/badge/Open%20in-Colab-yellow?style=for-the-badge&logo=google-colab)](https://colab.research.google.com/drive/1iUNcDuqsTgx5Z3DtTeSxpK-LcyfBJE0Z?usp=sharing)
 
 <p align=center>
   <img src="https://github.com/Sgvkamalakar/SnoozeMonitor/assets/103712713/167ba0cc-b7ec-49fe-b992-d398931d9964" height="400" width="400"/>
