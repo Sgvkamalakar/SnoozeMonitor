@@ -1,4 +1,8 @@
+
 # SnoozeMonitor
+
+[![Open in Taipy](https://img.shields.io/badge/Open%20in-Taipy-magenta?style=for-the-badge&logo=taipy)](url)
+
 <p align=center>
   <img src="https://github.com/Sgvkamalakar/SnoozeMonitor/assets/103712713/167ba0cc-b7ec-49fe-b992-d398931d9964" height="400" width="400"/>
 </p>
@@ -20,6 +24,7 @@ The theme of SnoozeMonitor centers on promoting relaxation and well-being. Throu
   
 ## Demo
 
+https://github.com/Sgvkamalakar/SnoozeMonitor/assets/103712713/0528c91a-e843-477e-8014-df90090aa9a6
 
 
 ## Acknowledgements
