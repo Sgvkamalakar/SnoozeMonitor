@@ -26,6 +26,14 @@ The theme of SnoozeMonitor centers on promoting relaxation and well-being. Throu
 https://github.com/Sgvkamalakar/SnoozeMonitor/assets/103712713/0528c91a-e843-477e-8014-df90090aa9a6
 
 ## Libaries
+
+
+<p align="center">
+<img src="https://github.com/Sgvkamalakar/SnoozeMonitor/assets/103712713/d146958b-a344-4921-9812-26b09d3f10a6" height='200' width='200'/>
+<img src="https://github.com/Sgvkamalakar/SnoozeMonitor/assets/103712713/5c265f75-9956-4823-82bd-654601952fad" height='200' width='200'/>
+</p>
+
+
 - Taipy 3.1.0 (an open-source Python library for easy, end-to-end application development)
   
   ### Taipy Components used in SnoozeMonitor
@@ -38,7 +46,7 @@ https://github.com/Sgvkamalakar/SnoozeMonitor/assets/103712713/0528c91a-e843-477
   - Visualization charts (Pie chart/Bar graphs/Histogram/Area chart/Box plots)
   - Images
     
-- Tensorflow (DL framework to build models)
+- Tensorflow (Python framework to build ML/DL models)
 - Scikit-learn (used to o implement machine learning models and statistical modelling)
 - Google-generativeai
 - Plotly (Python graphing library makes interactive, publication-quality graphs)
