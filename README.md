@@ -50,8 +50,11 @@ https://github.com/Sgvkamalakar/SnoozeMonitor/assets/103712713/0528c91a-e843-477
 - Scikit-learn (used to o implement machine learning models and statistical modelling)
 - Open AI
 - Plotly (Python graphing library makes interactive, publication-quality graphs)
-- Beautifulsoup4 (a library that makes it easy to scrape information from web pages)
-- Markdown
+
+
+## Installation
+
+For detailed installation instructions, please refer to the [installation.md](installation.md) file.
 
 ## Acknowledgements
 - This project utilizes the Taipy framework for GUI development.
