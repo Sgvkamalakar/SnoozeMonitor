@@ -4,5 +4,3 @@ tensorflow
 scikit-learn
 openai
 plotly
-beautifulsoup4
-markdown
