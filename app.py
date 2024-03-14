@@ -4,14 +4,25 @@ from taipy.gui import *
 import pandas as pd
 from tensorflow.keras.models import load_model
 from sklearn.preprocessing import StandardScaler
-import google.generativeai as genai
+import openai
 import plotly.graph_objects as go
 import os
-from bs4 import BeautifulSoup
-import markdown
 
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-gemini_model = genai.GenerativeModel('gemini-pro')
+
+# Defining a request function to fetch the response for the prompt from OpenAI's GPT 3.5 Turbo model
+
+def request(prompt):
+    response = client.chat.completions.create(
+        messages=[
+            {
+                "role": "user",
+                "content": f"{prompt}",
+            }
+        ],
+        model="gpt-3.5-turbo",
+    )
+    x=response.choices[0].message.content
+    return x
 
 # Defining a function when submit button is pressed, this initiates the data fetch and processing operation and produces results
 
@@ -409,6 +420,10 @@ pages = {"/":" <|navbar|>",
          "Data":data_page,
          "Plots":plot_file}
 
+# Initialize a client object for interacting with the OpenAI API using the provided API key.
+client=openai.Client(api_key=os.getenv("OPENAI_API_KEY")
+
+# Create a GUI application object with the specified pages.
 app = Gui(pages=pages)
 
 # Running the application, by default the application runs in `loclahost:http://127.0.0.1:5000/` 
