@@ -1,4 +1,5 @@
 # SnoozeMonitor
+_Your ultimate Sleep Comapnion_
 
 [![Open in Taipy](https://img.shields.io/badge/Open%20in-Taipy-magenta?style=for-the-badge&logo=taipy)](https://snooozemonitor.taipy.cloud/)   [![Open in Colab](https://img.shields.io/badge/Open%20in-Colab-yellow?style=for-the-badge&logo=google-colab)](https://colab.research.google.com/drive/1iUNcDuqsTgx5Z3DtTeSxpK-LcyfBJE0Z?usp=sharing)
 
@@ -56,7 +57,23 @@ https://github.com/Sgvkamalakar/SnoozeMonitor/assets/103712713/0528c91a-e843-477
 
 For detailed installation instructions, please refer to the [installation.md](installation.md) file.
 
+
 ## Acknowledgements
 - This project utilizes the Taipy framework for GUI development.
 - Data analysis and visualization powered by Pandas, Plotly, and other Python libraries.
 - Sleep disorder predictions are based on Neural Networks trained using TensorFlow.
+
+
+## Contributor:
+<p align="center">
+  <img src="https://github.com/sgvkamalakar.png" height="200" width="200"/>
+</p>
+<p align="center">
+  Kamalakar Satapathi
+</p>
+
+ 
+Connect with me on [![LinkedIn](https://img.shields.io/badge/-Kamalakar_Satapathi-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sgvkamalakar)
+
+Explore my magical codes [![GitHub](https://img.shields.io/badge/-Sgvkamalakar-181717?style=flat-square&logo=github)](https://github.com/sgvkamalakar)
+
