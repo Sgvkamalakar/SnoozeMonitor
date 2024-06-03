@@ -122,7 +122,6 @@ if selected_page=="Predict":
     st.table(df_transposed)
         
     pred_label=label_mapping[prediction[0]]
-    st.write(pred_label)
     res_length=len(str(pred_label))
     width = 100
     font_size = 30
