@@ -119,18 +119,7 @@ if selected_page=="Predict":
     df_transposed.columns = ['Metric', 'Value']
     df_transposed['Value'] = df_transposed['Value'].apply(lambda x: f"{x:.1f}" if isinstance(x, (int, float)) else x)
 
-    styled_df = df_transposed.style.set_properties(**{
-        'background-color': '#7bf8ff',
-        'color': 'black',
-        'border-color': 'white'
-    }).set_table_styles([{
-        'selector': 'thead th',
-        'props': [('background-color', '#0045f8'), ('color', 'white')]
-    }])
-
-    styled_df_html = styled_df.render()
-
-    st.markdown(styled_df_html, unsafe_allow_html=True)
+    st.table(df_transposed)
         
     pred_label=label_mapping[prediction[0]]
     res_length=len(pred_label)
