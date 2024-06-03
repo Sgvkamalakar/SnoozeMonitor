@@ -37,7 +37,7 @@ styles = {
 selected_page = st_navbar(pages=["Predict","EDA"],styles=styles)
 
 df=pd.read_csv('assets/data.csv')
-
+df.fillna("None")
 if selected_page=="Predict":
     st.title("Sleep Disorder Prediction")
     def preprocess_blood_pressure(bp_str):
@@ -122,8 +122,7 @@ if selected_page=="Predict":
     st.table(df_transposed)
         
     pred_label=label_mapping[prediction[0]]
-    st.write(pred_label)
-    res_length=len(str(pred_label))
+    res_length=len(pred_label)
     width = 100
     font_size = 30
     if res_length>6:
