@@ -2,7 +2,6 @@ import streamlit as st
 from streamlit_navigation_bar import st_navbar
 import pandas as pd
 import numpy as np
-import seaborn as sns
 import plotly.graph_objs as go
 from plotly.subplots import make_subplots
 from sklearn.model_selection import train_test_split
