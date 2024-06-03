@@ -1,6 +1,7 @@
 # SnoozeMonitor
 _Your ultimate Sleep Comapnion_
 
+[![Open in Streamlit](https://img.shields.io/badge/Open%20in-Streamlit-red?style=for-the-badge&logo=streamlit)](https://sleeeepy.streamlit.app/)
 [![Open in Taipy](https://img.shields.io/badge/Open%20in-Taipy-magenta?style=for-the-badge&logo=taipy)](https://snooozemonitor.taipy.cloud/)   [![Open in Colab](https://img.shields.io/badge/Open%20in-Colab-yellow?style=for-the-badge&logo=google-colab)](https://colab.research.google.com/drive/1iUNcDuqsTgx5Z3DtTeSxpK-LcyfBJE0Z?usp=sharing)
 
 <p align=center>
