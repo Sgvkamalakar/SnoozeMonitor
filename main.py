@@ -37,7 +37,7 @@ styles = {
 selected_page = st_navbar(pages=["Predict","EDA"],styles=styles)
 
 df=pd.read_csv('assets/data.csv')
-df.fillna("No Disease")
+df=df.fillna("None")
 if selected_page=="Predict":
     st.title("Sleep Disorder Prediction")
     def preprocess_blood_pressure(bp_str):
